@@ -1,0 +1,20 @@
+body{
+    text-align:center;
+    background-position: center;
+    background-size: cover;
+}
+
+
+canvas{
+    border:20px solid rgb(237, 135, 11);
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes example{
+    from{box-shadow: 35px 35px 25px rgb(45, 11, 237);}
+    to{ box-shadow: 5px 5px 25px red;}
+}
